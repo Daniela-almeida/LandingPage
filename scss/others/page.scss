@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(../../img/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+.container1{
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo{
+  width: 185px;
+}
+.paragraph{
+  margin: 8px 0px;
+  color: $paragraph-color;
+}
+
+.btnSend{
+  color: $color-button;
+  border: 1pxx solid $color-button;
+
+
+  &:hover{
+    background-color: $color-button;
+    color: #fff;
+  }
+}
+
+.footer{
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 442px){
+
+}
+
+@media (max-width: 436px){
+  img{
+    width: 80vw;
+  }
+  .container1{
+   width: 90vw;
+  }
+}
+

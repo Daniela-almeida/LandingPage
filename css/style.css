@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../../img/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 185px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+  color: #f00543;
+}
+
+.btnSend {
+  color: #ff0043;
+  border: 1pxx solid #ff0043;
+}
+.btnSend:hover {
+  background-color: #ff0043;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 436px) {
+  img {
+    width: 80vw;
+  }
+  .container1 {
+    width: 90vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
